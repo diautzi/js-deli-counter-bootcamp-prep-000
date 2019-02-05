@@ -6,7 +6,7 @@ var katzDeLine = [];
 // }
 
   let num = 0;
-  function takeANumberTwo (line, name) {
+  function takeANumber(line, name) {
   
     line.push(name);
     num++; 
