@@ -1,12 +1,12 @@
 var katzDeLine = [];
 
-// function takeANumber(line, name) {
-//   line.push(name);
-//   return `Welcome, ${name}. You are number ${line.length} in line.`;
-// }
+function takeANumber(line, name) {
+  line.push(name);
+  return `Welcome, ${name}. You are number ${line.length} in line.`;
+}
 
   let num = 0;
-  function takeANumber(line, name) {
+  function takeANumberTwo (line, name) {
   
     line.push(name);
     num++; 
