@@ -26,7 +26,7 @@ function takeANumber(line, name) {
      for( let i=0; i< line.length; i++) {
       string.push(` ` + [i+1] + ". " + line[i])}
    if (line.length > 0) {
-      return `The line is currently: ${string}`; 
+      return `The line is currently:${string}`; 
        }
     else return `The line is currently empty.`;
   }
