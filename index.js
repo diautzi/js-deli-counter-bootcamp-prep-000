@@ -1,10 +1,9 @@
 var katzDeLine = [];
 
-function takeANumber(line, name) {
-  line.push(name);
-  return `Welcome, ${name}. You are number ${line.length} in line.`;
-  }
-<<<<<<< HEAD
+// function takeANumber(line, name) {
+//   line.push(name);
+//   return `Welcome, ${name}. You are number ${line.length} in line.`;
+// }
 
   let num = 0;
   function takeANumberTwo (line, name) {
@@ -15,9 +14,6 @@ function takeANumber(line, name) {
  
   }
     
-=======
-  
->>>>>>> c7356c6a7c0ffee121762a1744dc84077cc07eb4
   function nowServing(line) {
     if( line.length > 0 ) {
       return `Currently serving ${line.shift()}.`;
@@ -33,9 +29,4 @@ function takeANumber(line, name) {
       return `The line is currently: ${string}`; 
        }
     else return `The line is currently empty.`;
-     
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> c7356c6a7c0ffee121762a1744dc84077cc07eb4
